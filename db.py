@@ -40,7 +40,7 @@ class Database:
         return temp
 
 if __name__ == "__main__":
-    db = Database('ilias', "liakovic13")
+    db = Database('ilias', "")
     t = db.getTodos()[0]
     print(t)
 
